@@ -25,6 +25,7 @@ with(data.f, lines(DateTime, Sub_metering_3, col="blue"))
 # Global Reactive Power
 with(data.f, plot(DateTime, Global_reactive_power, type="l", ylab="Global_reactive_power", xlab = "datetime"))
 
+
 ## Copy File from screen device
 dev.copy(png, file="Plot4.png")
 dev.off()
